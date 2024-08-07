@@ -1,0 +1,57 @@
+XAMPP 
+1. c://xampp/htdocs
+
+                 Default Website
+                 Create your own project
+2. Access Server 
+           Xampp/xampp-control.exe 
+           Right click and send to desktop 
+
+   - Start Appace Server 
+
+   - Open Crome Browser 
+   - http://localhost   
+   - http://127.0.0.1                       
+
+
+- Basic Sytax of PHP 
+<?php 
+
+?>
+
+- How to print msg on output 
+ echo "";
+.......................................
+
+HTML - PHP                .php
+PHP  - HTML 
+
+.........................................
+Variable:
+
+$a = 10;
+
+$name                       $1a   X  
+$first_name                 $first name X 
+$fistName                   $%name      X  
+$FIRSTNAME                     
+$name34343
+ 
+............................................
+
+METHODS
+
+GET  - URL Data Passing - Send/Rec 
+
+$_GET[]
+
+
+POST - HTTP Protocol Send/Rec 
+$_POST[]
+
+
+REQUEST  - Data Recieved
+$_REQUEST[]
+
+
+ 
