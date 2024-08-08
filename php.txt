@@ -54,4 +54,73 @@ REQUEST  - Data Recieved
 $_REQUEST[]
 
 
- 
+ .................................
+
+ Conditional Statement
+ if 
+ if-else 
+ if-else-if 
+
+ if()
+ {
+
+ }
+ else if()
+ {
+
+ }
+ else if()
+ {
+
+ }
+ else 
+ {
+
+ }
+
+ nested-if-else 
+
+ if()
+ {
+                if( )
+                {
+                    if()
+                     {
+
+                     }  else{}     
+                }else{}
+ }else{}
+
+
+ switch
+
+ switch(condition)
+ {
+   case '':
+   statement;
+   break;
+   case '':
+   statement;
+   break;
+   case '':
+   statement;
+   break;
+   case '':
+   statement;
+   break;
+   default:
+   statement;
+   break;
+
+ }
+
+
+LOOP 
+    - While 
+    - Do-while 
+    - for 
+    - nested 
+    - foreach - array
+
+
+Chess Board 
