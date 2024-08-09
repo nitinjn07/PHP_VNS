@@ -213,6 +213,24 @@ https://www.w3schools.com/php/php_ref_string.asp
 
 SESSION & COOKIES 
 
+SESSION - 
+         $_SESSION['name'] = "Nitin";
+
+         session_start() 
+
+         session_destroy()
+ 
+COOKIES  - Store information in client side 
+
+ set_cookie("user","admin",time()+20,"/");
+set_cookie("user","",time()-20,"/");
+$_COOKIE['user']
+
+
+
+
+
+
 File Uploading
 
 File Handling
