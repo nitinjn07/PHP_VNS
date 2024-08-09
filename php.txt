@@ -124,3 +124,99 @@ LOOP
 
 
 Chess Board 
+4x
+
+FUNCTIONS
+
+- Default Function 
+  
+  function hello()
+  {
+
+  }
+  hello();
+  
+
+- Parameterized Function 
+
+  function hello($a,$b)
+  {
+
+  }
+  hello(2,3);
+
+
+- Return type function 
+  function hello($a,$b)
+  {
+     return 0;
+  }
+  hello(2,3);
+
+
+print_r();  use for printing array 
+include();  import php file - warning
+required();  impport php file - manditory 
+
+
+ARRAY 
+
+ - collection of multi type of  data 
+ - group of variable 
+
+- Numeric Array 
+   $a = array('Nitin',33,4.4);
+   
+
+
+- Associative Array  ( key , Value)
+
+  $data = array('name'=>'Ram','email'=>'acbd@gmail.com');
+
+  echo $data['name'];
+
+
+- Multidimentional Array 
+
+  
+
+STRING
+
+Predefine function 
+strlen()  -- Length of String 
+strpos()  -- String Position 
+strrev()  -- Reverse Print 
+str_replace() - Replace 
+strtoupper()  - capital 
+strtolower()  - small 
+strtocapitalize() - first letter capital 
+chop() 
+trim()
+ltrim()
+rtrim()
+implode() Array to string 
+exlode()  String to Array 
+substr() 
+
+https://www.w3schools.com/php/php_ref_string.asp
+
+
+
+
+
+
+
+
+
+
+
+
+SESSION & COOKIES 
+
+File Uploading
+
+File Handling
+
+MYSQL 
+
+MINI PROJECT - 
