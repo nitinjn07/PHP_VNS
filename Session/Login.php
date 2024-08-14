@@ -15,6 +15,17 @@
       $username = $_POST['uname'];
       $password = $_POST['pwd'];
 
+      if(isset($_POST['rem']))
+      {
+          setcookie('username',$username,time()+3600,'/');
+          setcookie('password',$password,time()+3600,'/');
+      }
+      else 
+      {
+         setcookie('username','',time()-3600,'/');
+          setcookie('password','',time()-3600,'/');
+      }
+
 
       if($username == $u && $password==$p)
       {
@@ -29,8 +40,9 @@
    }
 ?>
 <form action="" method="post">
-   <input type="text" name="uname" />
-   <input type="password" name="pwd" />
+   <input type="text" name="uname" placeholder="Enter username"   value="<?=@$_COOKIE['username']; ?>"  /><br/><br/>
+   <input type="password" name="pwd" placeholder="Enter password"     value="<?=@$_COOKIE['password']; ?>"/><br/>
+   <input type="checkbox" name="rem"/> Remember Password ?<br/>
    <input type="submit" name="login" value="Login" />
 </form>
     

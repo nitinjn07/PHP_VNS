@@ -226,12 +226,20 @@ COOKIES  - Store information in client side
 set_cookie("user","",time()-20,"/");
 $_COOKIE['user']
 
-
-
-
-
-
 File Uploading
+  
+$_FILES['name'][]
+$_FILES['type'][]
+$_FILES['size'][]
+$_FILES['tmp_name'][]  
+
+
+move_uploaded_file(tmp,destination);
+
+
+
+
+
 
 File Handling
 
