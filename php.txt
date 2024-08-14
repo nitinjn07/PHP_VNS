@@ -237,12 +237,53 @@ $_FILES['tmp_name'][]
 move_uploaded_file(tmp,destination);
 
 
+MYSQL  - DBMS - SQL 
+services.msc 
+http://localhost/phpmyadmin
+
+DDL - Data Defination Language 
+>> create database manoj 
+>> create table grocery
+     (id int(10),
+     name varchar(50),
+     price varchar(20),
+     date varchar(20),
+     qty varchar(20))   
+>> alter table grocery add ptype varchar(20)
+>> alter table grocery drop ptype
+
+>> Truncate
+   >> truncate table grocery 
+  
+>> Drop 
+
+   >> drop table grocery 
+
+DML - Data Manipulation Language 
+
+DQL - Data Query Language 
+
+TCL - Transactional Control Lanaguage 
 
 
 
 
-File Handling
 
-MYSQL 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 MINI PROJECT - 
