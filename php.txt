@@ -260,10 +260,67 @@ DDL - Data Defination Language
    >> drop table grocery 
 
 DML - Data Manipulation Language 
+     
+    - INSERT 
+          insert into grocery(sno,name,price,date,qty) 
+          values('1','nasd','33','11/11/1111','3'),
+                ('1','nasd','33','11/11/1111','3'),
+                ('1','nasd','33','11/11/1111','3')
 
-DQL - Data Query Language 
+    - UPDATE 
 
-TCL - Transactional Control Lanaguage 
+       >> update grocery set name='Dairy Milk', price=100,qty=4
+          where sno=3
+
+    - DELETE  
+
+       >> delete from grocery where sno=3
+
+
+KEY - 
+     - Primary Key -  No Repeat - No Null Value 
+     - Unique Key - No repeat - one null value 
+     - Foriegn Key - Relation 
+
+
+
+DQL - Data Query Language  - Data  Mining  
+
+>> select * from grocery 
+>> select id,name from student
+>> select * from student where id=3
+>> select id,name from student where id=3
+
+LIKE - Search 
+
+select * from user_details where first_name LIKE '%B%'
+
+Employee 
+select * from employee where salary=20000
+select * from employee where jd between date1 and date2
+
+................................................
+
+ORDER BY 
+
+col - alphabet - A - Z  
+col - number - Asc 
+
+SELECT * FROM `user_details` ORDER BY first_name desc;
+
+SELECT * FROM `user_details` ORDER BY user_id desc LIMIT 5;
+
+SELECT * FROM `user_details` LIMIT 5;
+
+
+..................................................................
+
+- INSERT PHP 
+
+
+
+
+
 
 
 
