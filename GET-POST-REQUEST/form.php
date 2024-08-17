@@ -9,7 +9,9 @@
 <body>
      <div class="container">
           <div class="row">
+
             <div class="col-md-8 mx-auto bg-danger p-1">
+               <a class="btn btn-warning" href="student-list.php">List of Student</a>
                    <div class="card bg-dark text-white">
                     <div class="card-header">
                      <h4 class="text-center">Student Registration</h4>
