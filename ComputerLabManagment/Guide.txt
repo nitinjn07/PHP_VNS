@@ -1,0 +1,48 @@
+Step 1:  -  Create Databaser LabManagment
+Step 2: - Create Connection File 
+                - connection.php
+  <?php 
+   $server = "localhost";
+   $user ="root";
+   $pass ="";
+   $dbname ="labmanagement";
+
+   $con = mysqli_connect($server,$user,$pass,$dbname);
+
+?>
+
+Step 3:  create  addcomputer.php 
+
+          - ComputerName
+          - processor    - Dropdown 
+          - HDD  - 
+          - SSD 
+          - RAM   
+          - Keyboard 
+          - Mouse  
+          - Location 
+         - Description 
+         - Software Installed 
+        - IP Address
+
+ Create Table in DB - computers
+
+
+#	Name	Type	Collation	Attributes	Null	Default	Comments	Extra	Action
+	1	id Primary	int(11)			No	None		AUTO_INCREMENT	Change Change	Drop Drop	
+	2	computer_name	varchar(100)	utf8mb4_general_ci		No	None			Change Change	Drop Drop	
+	3	address	varchar(100)	utf8mb4_general_ci		No	None			Change Change	Drop Drop	
+	4	processor	varchar(100)	utf8mb4_general_ci		No	None			Change Change	Drop Drop	
+	5	hdd	varchar(50)	utf8mb4_general_ci		No	None			Change Change	Drop Drop	
+	6	ssd	varchar(50)	utf8mb4_general_ci		No	None			Change Change	Drop Drop	
+	7	ram	varchar(50)	utf8mb4_general_ci		No	None			Change Change	Drop Drop	
+	8	keyboard	varchar(50)	utf8mb4_general_ci		No	None			Change Change	Drop Drop	
+	9	extra	text	utf8mb4_general_ci		No	None			Change Change	Drop Drop	
+	10	collegename	varchar(100)	utf8mb4_general_ci		No	None			Change Change	Drop Drop	
+	11	location	varchar(100)	utf8mb4_general_ci		No	None			Change Change	Drop Drop	
+	12	software	varchar(100)	utf8mb4_general_ci		No	None			Change Change	Drop Drop	
+	13	problem	varchar(100)	utf8mb4_general_ci		No	None			Change Change	Drop Drop	
+	14	create_date	timestamp			No	current_timestamp()			Change Change	Drop Drop	
+	15	delstatus	int(11)			No	1			Change Change	Drop Drop	
+
+
