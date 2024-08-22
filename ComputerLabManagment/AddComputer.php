@@ -17,7 +17,7 @@
                 <h3>Computer Information</h3>
                 <?php 
                       include('connection.php');
-                      $qry="select * from computers where delstatus=1";
+                      $qry="select * from computers where delstatus=1 and ssd>128";
                       $ex = mysqli_query($con,$qry);
                       $active= mysqli_num_rows($ex);
                 ?>

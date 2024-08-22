@@ -60,6 +60,8 @@
                         <td>
                             <a href="delete.php?id=<?=$data['id'];?>"
                                 onClick="return confirm('Are you sure to delete');" class="btn btn-danger">Delete</a>
+
+                            <a href="edit.php?id=<?=$data['id'];?>" class="btn btn-success">Edit</a>
                         </td>
                     </tr>
 
